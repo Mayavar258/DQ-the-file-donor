@@ -1152,7 +1152,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about'),
                     InlineKeyboardButton('Iɴʟɪɴᴇ Sᴇᴀʀᴄʜ ☌', switch_inline_query_current_chat='')
                 ],[
-                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
+                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=f"t.me/Movie_Queen_Tamilmovie")
+                ],[
+                    InlineKeyboardButton(' Demo Channel ', url=f"t.me/Demo_Movie_Queen")
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
